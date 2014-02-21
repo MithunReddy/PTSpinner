@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0702FD5C-48A4-4E74-B026-851EC83B0BB8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ProjectDuration</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9A0D75C5-8B86-4F49-9536-F4F17AE6776C</key>
+		<string>https://github.com/MithunReddy/PTSpinner.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ProjectDuration.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9A0D75C5-8B86-4F49-9536-F4F17AE6776C</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/MithunReddy/PTSpinner.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9A0D75C5-8B86-4F49-9536-F4F17AE6776C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9A0D75C5-8B86-4F49-9536-F4F17AE6776C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PTSpinner</string>
+		</dict>
+	</array>
+</dict>
+</plist>
