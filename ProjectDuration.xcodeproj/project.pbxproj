@@ -28,8 +28,6 @@
 		2108298718B79AD000104CEB /* CDIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2108298018B79AD000104CEB /* CDIconView.m */; };
 		2108298818B79AD000104CEB /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 2108298218B79AD000104CEB /* Common.m */; };
 		2108298A18B79BE100104CEB /* icon_arrow_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 2108298918B79BE100104CEB /* icon_arrow_up.png */; };
-		2108298C18B79CBA00104CEB /* iPod Click.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 2108298B18B79CBA00104CEB /* iPod Click.aiff */; };
-		2108298F18B7A01300104CEB /* KMRotaryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2108298E18B7A01300104CEB /* KMRotaryView.m */; };
 		2108299218B7A13F00104CEB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2108299118B7A13F00104CEB /* QuartzCore.framework */; };
 		2108299518B7CDD200104CEB /* KMSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = 2108299418B7CDD200104CEB /* KMSpinner.m */; };
 		2108299718B7D33000104CEB /* compass.png in Resources */ = {isa = PBXBuildFile; fileRef = 2108299618B7D33000104CEB /* compass.png */; };
@@ -78,10 +76,6 @@
 		2108298118B79AD000104CEB /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 		2108298218B79AD000104CEB /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
 		2108298918B79BE100104CEB /* icon_arrow_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_arrow_up.png; sourceTree = "<group>"; };
-		2108298B18B79CBA00104CEB /* iPod Click.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "iPod Click.aiff"; sourceTree = "<group>"; };
-		2108298D18B7A01300104CEB /* KMRotaryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMRotaryView.h; sourceTree = "<group>"; };
-		2108298E18B7A01300104CEB /* KMRotaryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMRotaryView.m; sourceTree = "<group>"; };
-		2108299018B7A07000104CEB /* KMRotaryProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMRotaryProtocol.h; sourceTree = "<group>"; };
 		2108299118B7A13F00104CEB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		2108299318B7CDD200104CEB /* KMSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KMSpinner.h; path = ProjectDuration/Wheel/KMSpinner.h; sourceTree = "<group>"; };
 		2108299418B7CDD200104CEB /* KMSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KMSpinner.m; path = ProjectDuration/Wheel/KMSpinner.m; sourceTree = "<group>"; };
@@ -119,9 +113,6 @@
 				2108297118B79A1000104CEB /* KMViewController.h */,
 				2108297218B79A1000104CEB /* KMViewController.m */,
 				2108297318B79A1000104CEB /* KMViewController.xib */,
-				2108298D18B7A01300104CEB /* KMRotaryView.h */,
-				2108298E18B7A01300104CEB /* KMRotaryView.m */,
-				2108299018B7A07000104CEB /* KMRotaryProtocol.h */,
 				2108299318B7CDD200104CEB /* KMSpinner.h */,
 				2108299418B7CDD200104CEB /* KMSpinner.m */,
 				2108299618B7D33000104CEB /* compass.png */,
@@ -169,7 +160,6 @@
 			isa = PBXGroup;
 			children = (
 				2108298918B79BE100104CEB /* icon_arrow_up.png */,
-				2108298B18B79CBA00104CEB /* iPod Click.aiff */,
 				2108294A18B799EE00104CEB /* ProjectDuration-Info.plist */,
 				2108294B18B799EE00104CEB /* InfoPlist.strings */,
 				2108294E18B799EE00104CEB /* main.m */,
@@ -293,7 +283,6 @@
 			files = (
 				2108294D18B799EE00104CEB /* InfoPlist.strings in Resources */,
 				2108295518B799EE00104CEB /* Images.xcassets in Resources */,
-				2108298C18B79CBA00104CEB /* iPod Click.aiff in Resources */,
 				2108297518B79A1000104CEB /* KMViewController.xib in Resources */,
 				2108299718B7D33000104CEB /* compass.png in Resources */,
 				2108298A18B79BE100104CEB /* icon_arrow_up.png in Resources */,
@@ -319,7 +308,6 @@
 				2108298418B79AD000104CEB /* CDCircleGestureRecognizer.m in Sources */,
 				2108297418B79A1000104CEB /* KMViewController.m in Sources */,
 				2108298718B79AD000104CEB /* CDIconView.m in Sources */,
-				2108298F18B7A01300104CEB /* KMRotaryView.m in Sources */,
 				2108298518B79AD000104CEB /* CDCircleOverlayView.m in Sources */,
 				2108295318B799EE00104CEB /* KMAppDelegate.m in Sources */,
 				2108298318B79AD000104CEB /* CDCircle.m in Sources */,
@@ -526,6 +514,7 @@
 				2108296D18B799EE00104CEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2108296E18B799EE00104CEB /* Build configuration list for PBXNativeTarget "ProjectDurationTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +523,7 @@
 				2108297018B799EE00104CEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

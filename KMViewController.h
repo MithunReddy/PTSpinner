@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CDCircle.h"
-@interface KMViewController : UIViewController<CDCircleDelegate,CDCircleDataSource>
+@interface KMViewController : UIViewController
 
 
 @end
