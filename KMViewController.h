@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-@interface KMViewController : UIViewController
+@interface KMViewController : UIViewController<UIGestureRecognizerDelegate,UIScrollViewDelegate,UITextFieldDelegate,UIActionSheetDelegate>
+- (IBAction)transformView:(id)sender;
 
+@property (weak, nonatomic) IBOutlet UIButton *buttonTform;
 
 @end

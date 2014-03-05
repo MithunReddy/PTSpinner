@@ -18,9 +18,6 @@
     if (self) {
         // Initialization code
         self.inertiaeffect = YES;
-//        UIImageView * ime = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"compass.png"]];
-//        [self addSubview:ime];
-//        ime.frame = self.bounds;
         self.recognizer = [[CDCircleGestureRecognizer alloc] initWithTarget:self action:@selector(tapped:)];
         [self addGestureRecognizer:self.recognizer];
     }
@@ -35,13 +32,6 @@
         }
     }
 }
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect
-{
-    // Drawing code
-}
-*/
+
 
 @end

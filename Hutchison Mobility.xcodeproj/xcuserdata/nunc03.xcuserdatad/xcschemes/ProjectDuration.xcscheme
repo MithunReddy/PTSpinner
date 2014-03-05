@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2108293E18B799EE00104CEB"
-               BuildableName = "ProjectDuration.app"
-               BlueprintName = "ProjectDuration"
-               ReferencedContainer = "container:ProjectDuration.xcodeproj">
+               BuildableName = "Hutchison Mobility.app"
+               BlueprintName = "Hutchison Mobility"
+               ReferencedContainer = "container:Hutchison Mobility.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2108295918B799EE00104CEB"
-               BuildableName = "ProjectDurationTests.xctest"
-               BlueprintName = "ProjectDurationTests"
-               ReferencedContainer = "container:ProjectDuration.xcodeproj">
+               BuildableName = "Hutchison MobilityTests.xctest"
+               BlueprintName = "Hutchison MobilityTests"
+               ReferencedContainer = "container:Hutchison Mobility.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2108293E18B799EE00104CEB"
-            BuildableName = "ProjectDuration.app"
-            BlueprintName = "ProjectDuration"
-            ReferencedContainer = "container:ProjectDuration.xcodeproj">
+            BuildableName = "Hutchison Mobility.app"
+            BlueprintName = "Hutchison Mobility"
+            ReferencedContainer = "container:Hutchison Mobility.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2108293E18B799EE00104CEB"
-            BuildableName = "ProjectDuration.app"
-            BlueprintName = "ProjectDuration"
-            ReferencedContainer = "container:ProjectDuration.xcodeproj">
+            BuildableName = "Hutchison Mobility.app"
+            BlueprintName = "Hutchison Mobility"
+            ReferencedContainer = "container:Hutchison Mobility.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2108293E18B799EE00104CEB"
-            BuildableName = "ProjectDuration.app"
-            BlueprintName = "ProjectDuration"
-            ReferencedContainer = "container:ProjectDuration.xcodeproj">
+            BuildableName = "Hutchison Mobility.app"
+            BlueprintName = "Hutchison Mobility"
+            ReferencedContainer = "container:Hutchison Mobility.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
